@@ -26,3 +26,4 @@ toml
 wordcloud
 psycopg2-binary
 streamlit-authenticator==0.1.5
+hydralit_components
