@@ -302,7 +302,7 @@ if authentication_status == True:
         with over_all_wordcloud_expander:
             ex_col1,ex_col2 = st.columns((3,3)) 
             with ex_col1:
-                if len(selected_wordcloud_data['tweets_no_stopwords']) != 0:
+                if len(selected_wordcloud_data['tweets_no_stopwords']) > 0:
                     overall_wordcloud(selected_wordcloud_data['tweets_no_stopwords'])
             with ex_col2:
                 overall_hashtag_plot(hashtagg_category_data)
